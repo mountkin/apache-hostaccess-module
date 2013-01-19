@@ -1,6 +1,6 @@
 # Apache hostaccess module
 
-This apache implements an AllowedDomains directive for apache, which 
+This apache module implements an AllowedDomains directive for apache, which 
 helps one to configure the apache server to only accept requests whose 
 Host header is in the whitelist. Requests whose Host header are not in 
 the whitelist will be denied by closing the TCP connection directly.

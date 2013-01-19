@@ -9,11 +9,11 @@ the whitelist will be denied by closing the TCP connection directly.
 
 When you have more than one ServerName or ServerAlias in the same 
 VirtualNameHost, but you want some of the directories only can be accessed
-by some limited domain name.
+by some granted domain name.
 
 ## Runtime Configuration
 
-You can put the following in your .htaccess file or in the apache main 
+You can put the following either in your .htaccess file or in the apache main 
 config files.
 ```
 AllowedDomains *.example.com other.test.com
